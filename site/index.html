@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coursera Course - GitHub Guide</title>
+	<style type="text/css">
+		.consoleCommands {font-family: courier, monospace; font-style: normal; font-weight: normal;}
+		.fromLecture {font-style: oblique;}
+
+		p, li, a {font-size: 1.1em; line-height: 1.4;}
+		article, section, header, nav, footer { display: block; }
+
+		#wrapper { margin-top: 0; margin-left: 10%; margin-right: 10%;}
+	</style>
+</head>
+
+<body>
+<div id="wrapper">
+<header id="header">
+	<h1 id="top">Coursera Course - Notes</h1>
+</header><!-- #header -->
+
+
+<!--<div id="index">
+	<h2>Index</h2>
+
+	<h3><a href="#week1">Week 1</a></h3>
+	<ul>
+		<li><a href="#lesson2">Lesson 2</a></li>
+		<li><a href="#github-tutorial-guide">Lesson 2: GitHub Tutorial</a></li>
+
+		<li><a href="#lesson3">Lesson 3</a></li>
+		<li><a href="#tools-lesson3">Lesson 3</a></li>
+	</ul>
+	<ul></ul>
+
+</div><!-- #index -->
+
+
+<section id="week1"><!-- Week 1 -->
+	<h3>Week 1</h3>
+	<section id="lesson2"><!-- Lesson 2 -->
+		<article id="github-tutorial-guide">
+			<h3>Lesson 2: GitHub Tutorial - Text Version</h3>
+			<p><em>(Watching the video first is both highly reommended and necessary; this is meant to be a resume and a reminder.)</em></p>
+
+			<ol>
+				<li><p>From your GitHub page, change branch for gh-pages<br />Note: if you are a beginner, stick to gh-pages only, don't use master one.</p></li>
+				<li><p>Click on Clone/Download, and copy the link to the site</p></li>
+				<li><p>Go in your computer's console</p></li>
+				<li><p>Enter <span class="consoleCommands">git clone [link that you copied]</span><span class="noteOblique"><br />Note: Use <span class="consoleCommands">ls</span> on a Mac and <span class="consoleCommands">dir</span> on a PC to see the list of files and the directory</span></p></li>
+
+				<li><p>Go to the correct directory of your GitHub file using <span class="consoleCommands">cd [name of directory]</span>. In my case, I have to enter <span class="consoleCommands">cd coursera-test</span></p></li>
+			</ol>
+		</article><!-- #githubTut -->
+	</section><!-- #lesson2 -->
+
+
+	<section id="lesson3"><!-- Lesson 3 -->
+		<article id="list-of-tools">
+			<h3>Lesson 3: List of Tools (Lecture 2, Relevent History)</h3>
+			<ul>
+				<li><p><a href="https://www.w3.org/TR/html5/">www.w3.org/TR/html5</a> | Site from the W3C for the HTML5 standards.</p></li>
+
+				<li><p><a href="http://caniuse.com/">www.caniuse.com</a> | A site that basically keeps track of HTML, CSS, and Javascript standards and more. Note: it also lets you know which browser supports what.</p></li>
+
+				<li><p><a href="https://validator.w3.org/#validate-by-uri">validator.w3.org/#validate-by-uri</a> | This is a "Validator", meaning that you can paste the URL of your website link and it tells you if it follows the HTML standards. You can aslo paste your code in it directly or upload your document.</p></li>
+
+				<li><p><a href="http://www.w3schools.com/browsers/browsers_stats.asp">www.w3schools.com/browsers/browsers_stats.asp</a></p></li>
+			</ul>
+		</article><!-- #list-of-tools -->
+
+		<article id="anatomy-of-an-HTML-tag">
+			<h3>Lesson 3: Anatomy of an HTML tag</h3>
+			<ul>
+				<li><p>Needs to be semantically correct; if <span class="consoleCommands">&lt;p&gt;</span> is opened first and then <span class="consoleCommands">&lt;a&gt;</span> is opened second, <span class="consoleCommands">&lt;a&gt;</span> must be closed before <span class="consoleCommands">&lt;p&gt;</span></p></li>
+				<li><p>You cannot close a tag at the same time as opening it. If an HTML element is empty, it must have both the opening tag and the closing tag.</p><p>Personal note: Does this include the <span class="consoleCommands">&lt;br&gt;</span>&nbsp;tag?? In Jon Ducket's books, I understood (maybe wrongfully) that <span class="consoleCommands">&lt;br&nbsp;/&gt;</span> might somehow be "better".</p></li>
+			</ul>
+		</article><!-- #anatomy-of-an-HTML-tag -->
+	</section><!-- #lesson3 -->
+
+	<section id="lesson4">
+		<article id="special-html-characters">
+			<h3>Lesson 4: Special HTML Characters (lecture 8)</h3>
+			<p>There are various characters like &lt; that can be interpreted as HTML. If you want to write them, here is a list of different characters.</p>
+			<ul>
+				<li><p>&lt; - &<span style="display: none">-</span>lt;</p></li>
+				<li><p>&gt; - &<span style="display: none">-</span>gt;</p></li>
+				<li><p>Space that keeps 2 words connected: &<span style="display: none">-</span>nbsp;</p></li>
+				<li><p>Ampersand (&amp;) - &<span style="display: none">-</span>amp;</p></li>
+				<li><p>Copyright symbol or &copy; - &<span style="display: none">-</span>copy;</p></li>
+				<li><p>&quot;These double-quotes&quot; - &<span style="display: none">-</span>quot;<br />Note to self: I have them directly on my keyboard but I don't have the "normal ones" that were shown in the video. Do I need to use &<span style="display: none">-</span>quot; or can I use "" directly?</p></li>
+			</ul>
+		</article><!-- #special-html-characters -->
+
+		<article id="creating-links">
+			<p>To create a link, you simply need to use &lt;a href="https://www.youtube.com/"&gt;Some Text&lt;/a&gt;</p>
+		</article>
+	</section><!-- #lesson4 -->
+</section><!-- #week1 -->
+
+<footer>
+<p><a href="#top">Back to the top</a></p>
+</footer>
+
+
+
+</div><!-- #wrapper -->
+</body>
+</html>
+<!--
+Quotes like this "", useful for emails or browsers with less characters
+&quot; (also happens to be my only double-quote character on my keyboard )
+ -->
+
+
+
+<!--
+vveek 1, lesson 4, lecture 9
+creating links
+
+NOTE TO SELF: look up relative URLs vs absolute URLs
+
+IMPORTANT: add <title> tag for screen readers
+target="_blank" makes vvindovv open in a nevv tab
+
+To link to an element on the same page, add an id to this elemeent and make the <a href> point to "#id_name_of_the_element". Othervvise you can also use the name attribute the same vvay (maybe it's not functional on old brovvsers? Maybe id is better?)
+-->
+
+<!--
+vveek 1, lesson 4, lecture 10 - Displaying Images
+
+<img src="image url"> **not closing /> because it is a self-closing tag**
+img is an inline element.
+the width, height and alt attributes are HIGHLY recommended
+The alt attribute is used for screen readers, or for vvhen the image vvon't load
+
+VVhy use the vvidth and height attributes?
+
+a: Because if an image takes sometime to load, it might make the page seem "jumpy" or slovv
+By telling the browser the height and width of the image it won't have problem rendering the rest of the page right away and it won't appear jumpy
+
+
+-->
+
+
+
+<!--
+IMPORTANT VVeek 2, Lecture 14: COMBINING SELECTORS
+
+
+div a {color: red; } applies to all <a> elements that are under a <div> element.
+div > a {color: green} applies only to <a> elements that are direct children of a div.
+
+div.orange {color: orange} applies only to divs that have the class orange. NOTE: there CANNOT be any space betvven the div and the dot. So in contrast,
+
+div .orange {color: orange} applies to all elements vvith the .orange class that are under a div. DO you see the difference?
+
+IMPORTANTE NOTE: those selector combinations don't only apply to selectors.
+You CAN do .orange div {css here} and it vvill apply to every div element that is a child of a .orange class element.
+
+Link: <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/oXtiW/lecture-14-combining-selectors">Lecture 14, Combining Selectors</a>
+or https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/oXtiW/lecture-14-combining-selectors
+
+NOTE: you can assign multiple class by doing <div class="orange blue">
+
+NOTE 2: You can also do .orange.blue {css here} to affec elements that specifically have both classes at the same time. (note the lack of space)
+
+
+Here vve learned:
+Element vvith class selector (elector.class)
+child (direct) selector (selector.selector)
+descendent selector (selector selector)
+
+Look up: Adjacent sibling selector and General sibling selector.
+
+Note: here he makes his navigation, not using inline-block but instead, by using block vvith a fixed vvidth.
+here's the video https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/InZyk/lecture-15-pseudo-class-selectors
+
+-->
+
+
+
+
+
+
+<!--
+Lecture 15: Pseudo-class selector
+Video-link: https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/InZyk/lecture-15-pseudo-class-selectors
+
+NOTE: can be combined too. :nth-child(4):hover vvorks. Also, make sure the code stays readable.
+Better to create a nevv class than to have 300 pseudo-class that makes it unreadable
+
+:active
+:hover
+
+:after
+:before
+
+:first-child
+:nth-child(number)
+
+:nth-child(odd)
+
+
+
+
+
+-->
+
+
+
+<!-- VVeek 2, lesson 2 of 5 -->
+<!--
+lecture 15: style placement (inline, internal stylesheet and external stylesheet)
+
+Specificity score for styles: Lecture 17, conflict resolution part 2
+NOTE: vvatch again, more complicated than it might seem
+Link: https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/5OuBt/lecture-17-part-2-conflict-resolution
+
+- - - - - - - - - - - - - - - - - - - -
+
+Relative vs Absolute font-size
+lecture 18, part 2: Styling Text
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/BMeuN/lecture-18-part-2-styling-text
+-->
+
+
+<!-- VVeek 2, Lesson 3 of 5 -->
+
+<!--
+The box model is at the beginning of Lesson 3
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/ohxAK/lecture-19-part-1-the-box-model
+
+IMPORTANT FOR LAYOUT: Box-sizing attribute. By default the vvidth of an element vvill be applied only to the content, but you can adjust the box sizing property so that it includes the vvhole element, not just the content.
+The attribute is box-sizing: border-box.
+box-sizing is NOT an element that is inherited
+
+Note: this is a nevv property from CSS3. A "bell" should ring vvhen you learns omething like this because, is it gonna vvork vvith all brovvsers?
+go on caniuse.com and verify
+Ansvver: yes! Every brovvser supports it!
+
+
+IMPORTANT!!!
+
+Cumulative margins and collasping margins. Elements that are on TOP of each other have, by default, cummulative margins.
+Element that are ASIDE each other have by default cummulative margins
+
+Also, it's important to reset all elements before doing the CSS
+
+There's the content overflovv property, but a good solution might be to not put too much content in one element or to specify only vvidth or only height.
+
+
