@@ -1,0 +1,5 @@
+p, h1, h2, h3, h4, h5, h6 { font-size: 1em; }/* sets all font-sizes to 1em, at the same size */
+
+.wrapper { font-size: 120%; line-height: 1.4; }
+
+.article-float-left { float: left; width: 100%; }
