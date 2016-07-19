@@ -1,5 +1,54 @@
-p, h1, h2, h3, h4, h5, h6 { font-size: 1em; }/* sets all font-sizes to 1em, at the same size */
+html, header, body, nav, section, article, div { margin: 0; padding: 0; }/* removes all margins */
 
-.wrapper { font-size: 120%; line-height: 1.4; }
+p, h1, h2, h3, h4, h5, h6 { font-size: 1em; margin-top: 0.3em; margin-bottom: 0.3em; }/* sets all font-sizes to 1em, at the same size */
 
-.article-float-left { float: left; width: 100%; }
+* { box-sizing: border-box }
+
+.wrapper {
+	font-size: 120%;
+	line-height: 1.4;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+header {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	font-size: 1.75em;
+	text-align: center;
+}
+
+h3 { font-size: 1.25em; }
+
+article { padding-left: 2%; padding-right: 2%; border: 3px solid grey; }
+
+.float-col-01, .float-col-02, .float-col-03 {
+	float: left;
+	width: 100%;
+}
+
+.small-border-and-margin { margin-left: 2%; margin-right: 2%; }
+
+
+/* making things responsive */
+@media (min-width: 992px) {
+	.float-col-01, .float-col-02, .float-col-03 {
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.float-col-01, .float-col-02 {
+		width: 50%;
+	}
+	.float-col-03 {
+		width: 100%;
+		margin-top: 2%;
+	}
+}
+
+@media (max-width: 767px) {
+	.float-col-01, .float-col-02, .float-col-03 {
+		margin-top: 2%;
+	}
+}
