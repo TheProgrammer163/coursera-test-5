@@ -1,0 +1,65 @@
+[33mcommit c1ad037cdc8e9c938e2b958390ac6a7090c2e15a[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Tue Jul 19 16:16:46 2016 -0400
+
+    changed border colors for black, modified the layout, added/modified the border of the titles, made the titles (h3 elements of articles) be in a spereate <section> element, floated the title section to the right
+
+[33mcommit 3dfbfb9d692d640de7a67e3ae2bfe446de93a5bc[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Tue Jul 19 15:41:12 2016 -0400
+
+    removed the footer, believe the file is ready
+
+[33mcommit 9fb29f69cd386284d296936efb1b3e2e47d60d9f[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Tue Jul 19 15:33:37 2016 -0400
+
+    I have finished the assignment I believe, I'll verify again just to make sure
+
+[33mcommit 7fa44a58c49adaf7416df4ec857c0af122f03c53[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Tue Jul 19 14:22:33 2016 -0400
+
+    changed many things, added pices of articles about Gold, Iron and Silver, and added a css folder and a main.css file
+
+[33mcommit 0174c0757ec6eb9443b9accf17f0e097c5d5d059[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Mon Jul 18 06:54:41 2016 -0400
+
+    commit 5 I think
+
+[33mcommit 2ab3839de978906c51b0afe03225de0e492bb025[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Mon Jul 18 00:00:56 2016 -0400
+
+    nevv file
+
+[33mcommit 8c0cfa02e767051120081bb7f401ac7a953ce1ff[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Sun Jul 17 23:52:21 2016 -0400
+
+    commit 5
+
+[33mcommit ffe6a0ed7f85de1c54ab225ad76c1007b849fb9a[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Sun Jul 17 23:49:41 2016 -0400
+
+    commit 3
+
+[33mcommit 5714ab330389ecab417dface3979ef59b89df2a6[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Sun Jul 17 23:48:50 2016 -0400
+
+    commit
+
+[33mcommit bfc033545c4676961facf9d972c52bfbf8ee6adf[m
+Author: TheProgrammer163 <sam_lap@hotmail.fr>
+Date:   Sun Jul 17 23:39:50 2016 -0400
+
+    my first commit
+
+[33mcommit 6589e2e3a299d9c1a27f164a48c02a3ad04ef57f[m
+Author: TheProgrammer163 <TheProgrammer163@users.noreply.github.com>
+Date:   Sun Jul 17 23:22:01 2016 -0400
+
+    Create gh-pages branch via GitHub
