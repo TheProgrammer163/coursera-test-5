@@ -19,16 +19,39 @@ header {
 	text-align: center;
 }
 
-h3 { font-size: 1.25em; }
+.title {
+	font-size: 1.25em;
+	margin: 0;
+	display: inline;
+}
 
-article { padding-left: 2%; padding-right: 2%; border: 3px solid grey; }
+.title > h3 {
+	padding-right: 1.3em;
+	padding-left: 1.3em;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+
+	margin: 0;
+	float: right;
+}
+
+article {
+	padding-left: 2%;
+	padding-right: 2%;
+	clear: right;
+	padding-top: 0.1em;
+	padding-bottom: 0.2em;
+}
 
 .float-col-01, .float-col-02, .float-col-03 {
 	float: left;
 	width: 100%;
 }
 
-.small-border-and-margin { margin-left: 2%; margin-right: 2%; }
+.small-border-and-margin { margin-left: 2%; margin-right: 2%; border: 3px solid black; }
 
 
 /* making things responsive */
