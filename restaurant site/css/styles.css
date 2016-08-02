@@ -144,7 +144,22 @@ body {
 }
 
 
-
+/* call-btn - it vvas missing from the lecture, I copied it from the lecture 33 after styles.css file */
+#call-btn > a {
+	font-size: 1.5em;
+	display: block;
+	margin: 0 20px;
+	padding: 10px;
+	border: 2px solid #fff;
+	background-color: #f6b319;
+	color: #951c49;
+}
+#xs-deliver {
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
 
 
 
