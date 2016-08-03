@@ -247,7 +247,7 @@ body {
 
 	/* Homepage */
 	#menu-tile, #specials-tile {
-		width: 180px;
+		width: 10px;
 		margin: 0 auto 15px auto;
 	}
 }
