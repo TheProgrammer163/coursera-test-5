@@ -177,7 +177,7 @@ body {
 }
 
 /******** extra small devices only ********/
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 	/* Header */
 	.navbar-brand {
 		padding-top: 10px;
@@ -234,13 +234,23 @@ body {
 		width: 360px;
 		margin: 0 auto 15px auto;
 	}
-
-
-
-
 }
 
+/******** Super extra small devices only - like Iphone 4********/
+@media (max-width: 479px) {
+	/* Header */
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/* End Header */
 
+	/* Homepage */
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px auto;
+	}
+}
 
 
 
