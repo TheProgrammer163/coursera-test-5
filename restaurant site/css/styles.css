@@ -111,12 +111,10 @@ body {
 #menu-tile {
 	background: url('../images/menu-tile.jpg') no-repeat;
 	background-position: center;
-	max-width: 100%;
 }
 #specials-tile {
 	background: url('../images/specials-tile.jpg') no-repeat;
 	background-position: center;
-	max-width: 100%;
 
 }
 
@@ -179,7 +177,7 @@ body {
 }
 
 /******** extra small devices only ********/
-@media (min-width: 999690px) and (max-width: 999767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 	/* Header */
 	.navbar-brand {
 		padding-top: 10px;
@@ -239,7 +237,7 @@ body {
 }
 
 /******** Super extra small devices only - like Iphone 4********/
-@media (max-width: 767px) {
+@media (max-width: 479px) {
 	/* Header */
 	.navbar-brand h1 {
 		padding-top: 5px;
@@ -249,7 +247,7 @@ body {
 
 	/* Homepage */
 	#menu-tile, #specials-tile {
-		width: 280px;
+		width: 180px;
 		margin: 0 auto 15px auto;
 	}
 }
