@@ -178,6 +178,11 @@ body {
 
 /******** extra small devices only ********/
 @media (min-width: 480px) and (max-width: 767px) {
+
+	#-my-screensize {
+		text-transform: uppercase;
+	}
+
 	/* Header */
 	.navbar-brand {
 		padding-top: 10px;
@@ -247,7 +252,7 @@ body {
 
 	/* Homepage */
 	#menu-tile, #specials-tile {
-		width: 10px;
+		width: 280px;
 		margin: 0 auto 15px auto;
 	}
 }
