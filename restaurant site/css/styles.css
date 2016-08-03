@@ -177,7 +177,7 @@ body {
 }
 
 /******** extra small devices only ********/
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
 	/* Header */
 	.navbar-brand {
@@ -252,6 +252,8 @@ body {
 		margin: 0 auto 15px auto;
 	}
 }
+
+
 
 
 
