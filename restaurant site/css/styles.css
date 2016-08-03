@@ -249,6 +249,7 @@ body {
 	/* Homepage */
 	#menu-tile, #specials-tile {
 		width: 280px;
+		width: 280px;
 		margin: 0 auto 15px auto;
 	}
 }
