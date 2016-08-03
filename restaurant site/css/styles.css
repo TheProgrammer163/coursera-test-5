@@ -237,16 +237,16 @@ body {
 	}
 }
 
-/******** Super extra small devices only - like Iphone 4********/
+/******** Super extra small devices only - like Iphone 4********
 @media (max-width: 479px) {
-	/* Header */
+	/* Header *
 	.navbar-brand h1 {
 		padding-top: 5px;
 		font-size: 6vw;
 	}
 	/* End Header */
 
-	/* Homepage */
+	/* Homepage *
 	#menu-tile, #specials-tile {
 		width: 280px;
 		width: 280px;
@@ -254,7 +254,7 @@ body {
 	}
 }
 
-
+*/
 
 
 
