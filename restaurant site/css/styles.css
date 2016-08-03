@@ -179,7 +179,7 @@ body {
 }
 
 /******** extra small devices only ********/
-@media (min-width: 490px) and (max-width: 767px) {
+@media (min-width: 690px) and (max-width: 767px) {
 	/* Header */
 	.navbar-brand {
 		padding-top: 10px;
@@ -239,7 +239,7 @@ body {
 }
 
 /******** Super extra small devices only - like Iphone 4********/
-@media (max-width: 489px) {
+@media (max-width: 689px) {
 	/* Header */
 	.navbar-brand h1 {
 		padding-top: 5px;
