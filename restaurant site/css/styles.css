@@ -161,9 +161,30 @@ body {
 	color: #FFF;
 	opacity: 0.8;
 }
-
 /* End Homepage */
 
+
+/* MENU CATEGORIES */
+.category-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px auto;
+}
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+
+}
 
 
 /******** large devices only *********/
