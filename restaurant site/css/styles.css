@@ -164,7 +164,7 @@ body {
 /* End Homepage */
 
 
-/* MENU CATEGORIES *//* ---------*****---- HERE ----******---------- */
+/* MENU CATEGORIES */
 .category-tile {
 	position: relative;
 	border: 2px solid #3F0C1F;
@@ -192,6 +192,25 @@ body {
 
 #menu-categories-title + div {
 	margin-bottom: 50px;/* + is the Adjacent Sibling selector. Explanation: http://stackoverflow.com/questions/1139763/what-does-the-plus-sign-css-selector-mean*/
+}
+/* END MENU CATEGORY PAGE *//* ---------*****---- HERE ----******---------- */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
 }
 
 
