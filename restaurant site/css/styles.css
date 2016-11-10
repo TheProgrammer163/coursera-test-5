@@ -326,6 +326,18 @@ body {
 		width: 280px;
 		margin: 0 auto 15px auto;
 	}
+
+	.col-xxs-12 {
+		/*in bootstrap, this applies to all .col classes*/
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		/*this one only applies to all .col-xs classes*/
+		float: left;
+		/*this one only applies to .col-xs-12*/
+		width: 100%;
+	}
 }
 
 
