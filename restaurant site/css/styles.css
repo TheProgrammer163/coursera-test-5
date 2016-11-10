@@ -202,15 +202,33 @@ body {
 .menu-item-tile hr {
 	width: 80%;
 }
-
-.menu-item-tile .menu-item-price {
+.menu-item-tile .menu-item-price {/*affects elements with the class menu-item-price that are sitting INSIDE elements with the .menu-item-tile class. It is different from ".class, class". It is ".class .class" */
 	font-size: 1.1em;
-	text-align: right;
+	text-align: right;/*
 	margin-top: -15px;
-	margin-bottom: -15px;
+	margin-bottom: -15px;*/
 }
 .menu-item-tile .menu-item-price span {
 	font-size: .6em;
+}
+
+.menu-item-photo {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557C3E;
+	text-align: center;
 }
 
 
