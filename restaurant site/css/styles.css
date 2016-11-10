@@ -204,9 +204,9 @@ body {
 }
 .menu-item-tile .menu-item-price {/*affects elements with the class menu-item-price that are sitting INSIDE elements with the .menu-item-tile class. It is different from ".class, class". It is ".class .class" */
 	font-size: 1.1em;
-	text-align: right;/*
+	text-align: right;
 	margin-top: -15px;
-	margin-bottom: -15px;*/
+	margin-bottom: -15px;
 }
 .menu-item-tile .menu-item-price span {
 	font-size: .6em;
