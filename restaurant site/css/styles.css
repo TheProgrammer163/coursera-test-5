@@ -364,6 +364,9 @@ h3.menu-item-title {
 	.menu-item-tile .menu-item-price {
 		text-align: center;
 	}
+	.menu-item-description {
+		text-align: center;
+	}
 }
 
 /******** Super extra small devices only - like Iphone 4********/
