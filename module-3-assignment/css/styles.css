@@ -1,1 +1,23 @@
 /* this uses Bootsrap-3.3.7-dist */
+p {
+	font-size: 1.2em;
+}
+.navbar-default {
+	background-color: #35514d;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.food-description {
+	background-color: #e5e5e3;
+	margin-bottom: 20px;
+}
+.food-description h2 {
+	background-color: #59a07d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
