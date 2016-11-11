@@ -357,6 +357,13 @@ h3.menu-item-title {
 		width: 360px;
 		margin: 0 auto 15px auto;
 	}
+
+	.menu-item-photo {
+		margin-right: auto;
+	}
+	.menu-item-tile .menu-item-price {
+		text-align: center;
+	}
 }
 
 /******** Super extra small devices only - like Iphone 4********/
