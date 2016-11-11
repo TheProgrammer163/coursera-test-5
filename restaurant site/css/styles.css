@@ -197,7 +197,7 @@ body {
 
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*//*I commented this out because it looked wierd on the menu items, not sure if it's supposed to be there*/
 }
 .menu-item-tile hr {
 	width: 80%;
