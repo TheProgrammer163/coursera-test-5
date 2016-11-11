@@ -27,7 +27,7 @@ p {
 }
 .food-description {
 	background-color: #e5e5e3;
-	margin-bottom: 20px;
+	margin-bottom: 80px;
 	border-radius: 10px;
 }
 .food-description h2 {
@@ -39,4 +39,7 @@ p {
 }
 .food-description a {
 	text-decoration: none;
+}
+#food-description-main-title {
+	margin-bottom: 20px;
 }
