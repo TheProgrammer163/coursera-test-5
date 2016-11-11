@@ -230,6 +230,17 @@ body {
 	background-color: #557C3E;
 	text-align: center;
 }
+.menu-item-description {
+	padding-right: 30px;
+}
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
 
 
 /******** large devices only *********/
