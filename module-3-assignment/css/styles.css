@@ -4,8 +4,7 @@ p {
 }
 .navbar-default {
 	background-color: #35514d;
-	margin: 0;
-	border: 0;
+	margin-top: -1px;
 }
 .navbar-default .navbar-brand {
 	color: white;
