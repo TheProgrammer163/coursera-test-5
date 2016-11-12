@@ -1,0 +1,27 @@
+
+.photo-item img {
+	width: 300px;
+	height: auto;
+	border-radius: 25px;
+	border-color: black;
+}
+.photo-item {
+	text-align: center;
+	padding: 20px;
+	background-color: pink;
+	box-sizing: border-box.
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 35px;
+	display: inline-block;
+
+}
+.photo-item-text {
+	width: 300px;
+	height: 100px;
+}
+.clear {
+	clear: both;
+}
