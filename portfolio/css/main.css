@@ -34,6 +34,9 @@ header {
 
 	border-bottom: 3px solid black;
 	border-left: 3px solid black;
+	/* 3 pixels looks best but the assignment rewuires 1px wide */
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
 
 	margin: 0;
 	float: right;
@@ -60,6 +63,8 @@ article.main-article {
 	margin-left: 2%;
 	margin-right: 2%;
 	border: 3px solid black;
+	/* 3 pixels looks best but the assignment requires 1px wide */
+	border: 1px solid black;
 	background-color: #F7F4EA;
 }
 
