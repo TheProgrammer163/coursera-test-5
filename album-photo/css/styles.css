@@ -3,25 +3,25 @@
 	width: 300px;
 	height: auto;
 	border-radius: 25px;
-	border-color: black;
+	border: 5px solid white;
 }
 .photo-item {
 	text-align: center;
 	padding: 20px;
 	background-color: pink;
-	box-sizing: border-box.
+	background-color: #fcdef8;
+	background-color: #fce8f9;
+	box-sizing: border-box;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 35px;
 	display: inline-block;
+	box-shadow: 4px 4px 24px;
 
 }
 .photo-item-text {
 	width: 300px;
-	height: 100px;
-}
-.clear {
-	clear: both;
+	height: 8em;
 }
