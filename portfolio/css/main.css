@@ -69,13 +69,16 @@ article.main-article {
 }
 
 
-/* making things responsive */
+/*** making things responsive ***/
+
+/* Desktop */
 @media (min-width: 992px) {
 	.float-col-01, .float-col-02, .float-col-03 {
 		width: 33.33%;
 	}
 }
 
+/* Tablets */
 @media (min-width: 768px) and (max-width: 991px){
 	.float-col-01, .float-col-02 {
 		width: 50%;
@@ -90,8 +93,11 @@ article.main-article {
 	}
 }
 
+/* Phones and small devices */
 @media (max-width: 767px) {
 	.float-col-01, .float-col-02, .float-col-03 {
 		margin-top: 2%;
+		margin-bottom: 4%;
 	}
+
 }
