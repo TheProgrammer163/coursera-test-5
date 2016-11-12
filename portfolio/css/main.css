@@ -97,7 +97,7 @@ article.main-article {
 @media (max-width: 767px) {
 	.float-col-01, .float-col-02, .float-col-03 {
 		margin-top: 2%;
-		margin-bottom: 4%;
+		margin-bottom: 1%;
 	}
 
 }
