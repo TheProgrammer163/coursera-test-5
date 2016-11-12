@@ -1,4 +1,5 @@
 
+/********* LIST OF THE GREAT CATS ******/
 .photo-item img {
 	width: 300px;
 	height: auto;
@@ -25,3 +26,70 @@
 	width: 300px;
 	height: 8em;
 }
+/**** End of List of The Great Cats ***/
+
+
+/****** CATS' PROFILE PAGES *******/
+#cat-profile-main-image img {
+	border-radius: 30px;
+	background-color: pink;
+	border: 12px solid pink;
+	width: 500px;
+	max-width: 100%;
+}
+.cat-profile-section {
+	background-color: pink;
+	border: 20px solid pink;
+	font-size: 1.4em;
+	text-align: center;
+}
+.cat-profile-section {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: block;
+	width: 80%;
+}
+.cat-profile-section h3 {
+	font-weight: bold;
+	margin: 15px 0;
+	text-align: center;
+	background-color: #5f529b;
+	padding: 20px;
+	color: white;
+	text-shadow: 2px 4px #534d70;
+}
+
+/*--------- RESPONDIVE CSS ---------*/
+
+/******** large devices only *********/
+@media (min-width: 1200px) {
+
+	.cat-profile-section {
+		width: 70%;
+	}
+
+}
+
+/******* medium devices only ********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/******** small devices only *********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/******** extra small devices only ********/
+@media (max-width: 767px) {
+
+	.cat-profile-section {
+		width: 96%;
+	}
+
+}
+
+/*----- END OF RESPONSIVE CSS ----*/
