@@ -1,0 +1,2 @@
+This is after Week 3 on the coursera course, where we start learning about JavaScript.
+"restaurant site" is before learning about JavaScript.
