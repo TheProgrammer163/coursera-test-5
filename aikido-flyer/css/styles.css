@@ -19,16 +19,21 @@
 
 #flyer-column-left img {
 	max-width: 100%;
+	border: 4px solid #CCC;
+	border-radius: 7px;
+	margin-bottom: 20px;
 }
 /* End of left column */
 
 
 /* RIGHT COLUMN */
 #flyer-column-right-top {
-	background-color: black;
+	background-color: #222;
 	color: white;
 	padding: 15px 15px 10px 15px;
 	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 5px solid #111;
 }
 
 #flyer-column-right-bottom {
