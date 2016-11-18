@@ -1,0 +1,61 @@
+
+/*** navigation, header and branding **/
+#navbar-brand-main {
+	font-size: 1.6em;
+	margin-left: 20px;
+}
+.navbar {
+	background-color: #111;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	font-family: "Lato", sans-serif;
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
+	color: #BBB;
+}
+
+
+/* footer */
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+}
+footer a {
+	color: inherit;
+	text-decoration: underline;
+}
+footer a:hover {
+	color: #CCC;
+}
+
+
+/***** RESPONSIVENESS ****/
+
+/******** medium devices and above *********/
+@media (min-width: 768px) {
+
+	/* navbar */
+	#navbar-brand-main {
+		margin-left: 20px;
+	}
+	#newsletter {
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	/* end of navbar */
+	
+}
+@media (max-width: 767px) {
+	.nav>li {
+		font-size: 1.2em;
+		border: 1px solid white;
+		border-radius: 5px;
+		margin: 7px;
+	}
+	.nav:first-child {
+		border-top: 0;
+	}
+}
