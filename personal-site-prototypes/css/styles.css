@@ -3,6 +3,9 @@ a, a:hover, a:visited {
 	text-decoration: inherit;
 	color: inherit;
 }
+body {
+	background-color: #E9EAEA;
+}
 
 /*** navigation, header and branding **/
 #navbar-brand-main {
@@ -39,15 +42,53 @@ a, a:hover, a:visited {
 }
 /**** End of navigation header and branding ****/
 
+/* Header intro */
+header {
+	margin-bottom: 50px;
+}
 
 /*** MAIN CONTENT ****/
+.sec {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.section-header {
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 15px;
+	background-color: white;
+	color: #444;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
+	/* silver palette: http://www.color-hex.com/color-palette/25636 */
+	background-color: #efeab6;
+	background-color: #FFF;
+	color: #555;
+
+	/* border/box-shadow effect */
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+}
+
 .menu-item {
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
+
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
 	margin-bottom: 40px;
 	border: 8px solid #EEE;
 	border: 8px solid #E9EAEA;
+	border: 8px solid #FFF;
+
+	/* border/box-shadow effect */
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
 }
 a:hover .menu-item {
 	-webkit-box-shadow: 0px 0px 10px 2px rgba(158,158,158,1);
@@ -71,11 +112,13 @@ a:hover .menu-item {
 	margin: 0;
 	background-color: #EEE;
 	background-color: #E9EAEA;
+	background-color: #FFF;
 	color: #555;
 }
+/*** End of main content ***/
 
 
-/* footer */
+/*** footer ***/
 footer {
 	text-align: center;
 	padding: 20px;
@@ -90,6 +133,7 @@ footer a {
 footer a:hover {
 	color: #CCC;
 }
+/*** End of footer ***/
 
 
 /***** RESPONSIVENESS ****/
