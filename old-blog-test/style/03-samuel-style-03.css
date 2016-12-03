@@ -1,0 +1,286 @@
+
+@-ms-viewport {
+  width: device-width;
+}/* used for responsiveness */
+
+
+
+
+
+
+        /* { border: 2px solid black; }/**/
+
+
+/* ========= removing margins and paddings ========= */
+
+html, body, div { margin: 0; padding: 0; }
+
+
+/*body { background-color: #FAFAFA; }/* almost white */
+
+p { font-size: 1.3em; font-family: Georgia, Arial, Helvetica, sans-serif; line-height: 1.6; }
+
+h1 { font-family: 'Arial Black', Verdana, Arial, Helvetica, sans-serif; font-weight: bold; line-height: 1.2; text-align: center; color: #111111;}
+
+h2 { font-family: Verdana, Helvetica, Arial, sans-serif; color: #333333; }
+
+#readThisIn { margin-top: -10px; font-size: 1em; font-style: oblique; font-family: Arial, Verdana, Helvetica, sans-serif; }
+#readThisIn a { color: red; font-weight: bold; }
+
+#mainHeader, #nav { margin-right: 0; margin-left: 0; padding-left: 0; padding-right: 0; }
+
+
+/* ================================== LAYOUT  ================================= */
+
+    /* ============================== Header Layout ============================== */
+        .wrapper,
+        .mainContent,
+        .sideBar,
+        #mainHeader,
+        #sideHeaderLeft,
+        #sideHeaderRight { 
+            /*change the box model for simplicity*/
+            -webkit-box-sizing: border-box;
+               -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+        }
+        
+        
+
+
+
+        .wrapper {
+            font-size: 1em;
+            padding: 0;/**/
+            margin: 0;
+            width: 100%;
+        }
+        
+        #mainHeader,
+        #sideHeaderLeft,
+        #sideHeaderRight {
+            display: inline-block;
+            width: 100%;
+        }
+
+        
+        @media (min-width: 700px) {
+        
+            #mainHeader {
+                margin-left: 0%;
+                margin-right: 0%;
+                width: 50%;
+            }
+        
+            #sideHeaderLeft { width: 25%; margin-left: 0%; }
+            #sideHeaderRight { width: 25%; margin-left: 0%; }/* adjusts the header; makes it responsive */
+        }
+    /* ========================================= (header layout - bottom) ============================= */
+
+    /* MAIN CONTENT AND SIDEBAR LAYOUT */
+
+    .mainContent p { max-width: 49.5em; /*just like James Clear*/ }
+
+    .mainContent {
+        /*width: 50%;*
+        width: 42.5em;
+        width: 38em;
+        width: 39em;
+        width: 40em;
+        width: 42.5em;
+        width: 43.5em;/* great*
+        width: 47.5em;/*great*
+        width: 46em;/*great*/
+
+        max-width: 100%;/*just like James Clear*/
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 2em;
+        padding-right: 2em;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .sideBar {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #signUp01 { background-color: orange; }
+
+
+    /* ============================================ FIVE-COLUMN-LAYOUT ================================ */
+        .layout-five-columns-01,
+        .layout-five-columns-02,
+        .layout-five-columns-03 { 
+            /*change the box model for simplicity*/
+            -webkit-box-sizing: border-box;
+               -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+        }
+        
+
+
+        .layout-five-columns-01,
+        .layout-five-columns-02,
+        .layout-five-columns-03 {
+            display: inline-block;
+            vertical-align: top;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        
+        @media (min-width: 700px) {
+        
+            .layout-five-columns-01,
+            .layout-five-columns-02,
+            .layout-five-columns-03 {
+                width: 26%;
+            }
+            
+            /* makes the 2 sidebars appear if the screen is wide enough */
+            .layout-five-columns-01 { margin-left: 8%; margin-right: 0; }
+            .layout-five-columns-02 { margin-right: 3%; margin-left: 3% }
+            .layout-five-columns-03 { margin-right: 8%; margin-left: 0; }
+        }
+    /* =============================== (content layout - bottom) ============================= */
+
+/* ==================================== (layout - bottom) =============================== */
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------main nav (top)-----------------------*/
+
+.nav { margin: 0; padding: 0; display: block; text-align: center; }/* Gives the <dr id="nav"> element a width, so that we can use margins to center it. 
+                                    The div containing the UL list is affected. Doesn't work if used on the <ul> element directly, not sure why. */
+
+
+.nav a:hover { /*text-decoration: underline;*//**/ color: black; } /* when hovering, links become underlined */
+
+
+
+.nav a {
+    transition: all 0.3s;
+    color: #595959;
+
+    display: block; /* display block, originally so from mobile everything is fine and responsive. Changes to insile-block for bigger screen */
+    font-family: Verdana, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 1em; /* the padding and margins are also adjusted to fit with the logo */
+    padding-right: 1em;
+    vertical-align: top;
+    /*line-height: 2em;/*because there's only one line of text, line-heaght can be used to center the element*/
+}
+
+#logo-name {
+    font-family: Verdana, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: 1.22em; /* this is the minimum font-size, it gets bigger according to screensize */
+    font-size: 1.3em;
+    margin-top: 0em; /* the padding and margins are also adjusted to fit with the nav bar *//*-0.65 si ya pas de bordure, -0.55 avec borduer*/
+    margin-bottom: 0em;
+    margin-top: -0.25em;
+    font-weight: bold;
+}
+
+.logo-name-smaller { font-size: 0.85em; }/* used to make amuel and apointe ssmaller than the letters S and L */
+
+#header { background-color: black; }
+
+.nav a { color: white; }
+.nav a:hover { color: grey; }
+#logo-name:hover { color: white; }
+
+/*-------------------------------------------MAIN NAV (bottom)----------------------*/
+
+
+
+
+/* ============ custom responsiveness */
+@media (min-width: 500px) {
+    .nav a { display: inline-block; }
+}
+
+
+@media (min-width: 700px) {
+    .mainContent { max-width: 49.5em; }
+}
+
+@media (min-width: 1000px) {
+    .mainContent { margin-left: 8%; }
+}
+
+
+@media (min-width: 1280px) {
+    .nav a { font-size: 0.9em; }
+    #logo-name { font-size: 1.3em; }
+    .mainContent { margin-left: 9%; }
+}
+
+@media (max-width: 500px) {
+
+    .nav a { font-size: 1.5em; padding-bottom: 0.7em; padding-top: 0.7em; }
+    #logo-name { font-size: 1.5em; padding-bottom: 0.5em; padding-top: 1em; }
+    .mainContent { padding-left: 0.6em; padding-right: 0.2em; }
+}/**/
+
+
+
+/* ========= custom responsiveness - bottom - =========== */
+
+
+/* title class - all-caps, title of articles*/
+.title { text-transform: uppercase; margin-top: 0.8em; margin-bottom: 0.5em; text-align: left; }
+
+
+
+/* ========================= for BILINGUAL BOOKS styling! ===================== */
+
+
+/* turns <span class="yelling"> into ALL-CAPS */
+.yelling { text-transform: uppercase; font-weight: normal; }
+
+.emphasis { font-style: oblique; }
+
+.note-definition { border-bottom: 1px solid grey; }
+
+.who { font-style: oblique;font-size: 0.9em; }
+
+
+
+
+
+
+/*
+        <div class="wrapper"> 
+            <div class="mainContent">
+                <div id="nav" role="navigation">
+                    <h2>My Website</h2>
+                </div><!-- mainContent -->
+            </div><!-- MAIN CONTENT  == no spaces ==
+
+         --><div class="sideBar">
+            </div><!-- sideBar -->
+        </div><!-- wrapper -->
+*/
