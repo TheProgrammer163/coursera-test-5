@@ -1,0 +1,63 @@
+
+/* Custom CSS, other than just changing the colors */
+.navbar-default {
+  margin: 0;
+}
+
+/* Responsive nav - for some reason, it doesn't need to be "responsive". It works as is. Don't touch it*/
+#sl-responsive-nav li {
+  text-align: center;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#elevator-pitch {
+  background-color: #DDDDDD;
+  background-color: black;
+  background-color: #bf1200;
+  color: white;
+  padding: 50px;
+}
+#elevator-pitch span {
+  border-bottom: 4px solid white;
+}
+
+
+/**** About Us ******/
+#about {
+  background-color: #e5e5e5;
+  display: none;
+}
+#about p, #about h4 {
+  
+}
+#about-title {
+  text-align: center;
+  
+}
+
+/* Profile */
+
+.profile-card img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+.profile-card {
+  text-align: center;
+  padding: 30px;
+}
+
+#profiles {
+
+  padding: 20px;
+  border-radius: 80px;
+}
+
+/** end of about us**/
+
+
+/*** Services ***/
