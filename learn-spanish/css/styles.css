@@ -3,16 +3,23 @@
 .navbar-default {
   margin: 0;
 }
+.navbar-static-top {
+  border: 0px;/*
+  -webkit-box-shadow: 0px -1px 12px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow:    0px -1px 12px 0px rgba(255, 255, 255, 0.75);
+  box-shadow:         0px -1px 12px 0px rgba(255, 255, 255, 0.75);
+
+  -webkit-box-shadow: 0px 5px 12px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow:    0px 5px 12px 0px rgba(255, 255, 255, 0.75);
+  box-shadow:         0px 5px 12px 0px rgba(255, 255, 255, 0.75);*/
+}
 
 /* Responsive nav - for some reason, it doesn't need to be "responsive". It works as is. Don't touch it*/
 #sl-responsive-nav li {
   text-align: center;
 }
 
-.container {
-  padding-left: 15%;
-  padding-right: 15%;
-}
+
 
 #elevator-pitch {
   background-color: #DDDDDD;
@@ -23,6 +30,10 @@
 }
 #elevator-pitch span {
   border-bottom: 4px solid white;
+}
+#elevator-pitch h1, #elevator-pitch h2 {
+  line-height: 1.4;
+  margin-top: 0;
 }
 
 
@@ -52,12 +63,38 @@
 }
 
 #profiles {
-
   padding: 20px;
   border-radius: 80px;
 }
 
 /** end of about us**/
 
+/* bigger than mobile screens*/
+@media (min-width: 768px) {
+  .container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  /* elevator pitch */
+  #elevator-pitch {
+}
 
-/*** Services ***/
+/* only small devices */
+@media (max-width: 768px) {
+
+  /* elevator pitch */
+  #elevator-pitch {
+    padding: 20px;
+  }
+  #elevator-pitch h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  #elevator-pitch h2 {
+    font-size: 20px;
+  }
+  #elevator-pitch span {
+    border-bottom: 2px solid white;
+  }
+
+}

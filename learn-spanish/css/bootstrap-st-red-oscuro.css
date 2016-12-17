@@ -1,6 +1,6 @@
 .navbar-default {
-  background-color: #bf1200;
-  border-color: #d80000;
+  background-color: #a40000;
+  border-color: #bf1200;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
@@ -20,7 +20,7 @@
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #bf1200;
+  background-color: #a40000;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #ecf0f1;
@@ -28,35 +28,35 @@
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: #ffffff;
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
   color: #ffffff;
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-toggle {
-  border-color: #d80000;
+  border-color: #bf1200;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #d80000;
+  background-color: #bf1200;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
@@ -84,13 +84,21 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #d80000;
+    background-color: #bf1200;
   }
 }
 
 /* added a hover effect for the navbar*/
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #d80000;
+  background-color: #bf1200;
+}
+
+/* white shadow */
+.navbar-static-top {
+  border: 0px;
+  -webkit-box-shadow: 0px -1px 12px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow:    0px -1px 12px 0px rgba(255, 255, 255, 0.75);
+  box-shadow:         0px -1px 12px 0px rgba(255, 255, 255, 0.75);
 }
 
 /*
