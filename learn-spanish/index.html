@@ -11,7 +11,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styling -->
-<link href="css/bootstrap-st-red-oscuro.css" rel="stylesheet">
+<link href="css/st/bootstrap-st-red-oscuro.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,7 +24,7 @@
 <body>
 
 	<!-- main navigation -->
-	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" id="top">
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#"><span>Zebrary</span></a>
@@ -95,9 +95,16 @@
 					<p>The focus is not on informal speech, so we end out talking like robots. We don't speak the same way with friends than we do in a professionnal setting. If we do not learn to speak informally, we cannot speak naturally.</p>
 					<h4>Univerisites teach too slow. They aren't enough.</h4>
 					<p>You write a text, your Spanish teacher takes it but has a ton of copies to correct. A week or two later you see your results and the mistakes you made.<br>This is a slow process. When practicing speaking, this is once in while. It isn't a 1 on 1 where you only speak Spanish. It isn't as intense and effective as speaking with a native speaker of that language, only in that language, for 30 minutes in a row.</p>
-					<h2>Our solution</h2>
 				</div>
 			</div><!-- .row -->
+			<div class="row" id="services">
+				<div class="col-sm-12">
+					<h2>Our solution</h2>
+					<h4>We offer two types of services:</h4>
+					<p> - Phone calls and video calls to practice your speaking skills
+					<br> - Correction of texts, to help you create phrases that are correct and "sound right".</p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-6">
 					<h3>Practice Speaking Through Phone or Video Calls</h3>
@@ -114,17 +121,64 @@
 
 
 
-	<div id="services">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2>Services</h2>
-					<p>Skype session</p>
-					<p>Practice your Spanish speaking skills via Skype. Have a phone or video call where you will speak almost exclusively in Spanish, to help you improve. To really learn a language, you have to practice speaking it.</p>
+	<!--<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Services</h2>
+				<p>Skype session</p>
+				<p>Practice your Spanish speaking skills via Skype. Have a phone or video call where you will speak almost exclusively in Spanish, to help you improve. To really learn a language, you have to practice speaking it.</p>
+			</div>
+		</div>
+	</div>-->
+
+	<!-- back to the top button -->
+	<div class="container" id="st-backToTheTop">
+		<div class="row">
+			<div class="col-sm-12">
+				<div>
+					<a href="#top">Back to the top</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- footer -->
+	<div id="st-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<section>
+						<h3>Contact us</h3>
+					</section>
+				</div>
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row text-center">
+						<div class="col-sm-4">
+							<div class="st-btn-contactUs">
+								<a href="#" id="st-btn-contactUs-email">Email</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="st-btn-contactUs">
+								<a href="#" id="st-btn-contactUs-facebook">Facebook</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="st-btn-contactUs">
+								<div><a href="#" id="st-btn-contactUs-twitter">Twitter</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- st-footer -->
+
+
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/bug-workarounds/ie10-viewport-bug-workaround.js"></script>
 
 
 
