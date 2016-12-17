@@ -26,7 +26,8 @@
   background-color: black;
   background-color: #bf1200;
   color: white;
-  padding: 50px;
+  padding: 0px;
+  padding-top: 10px;
 }
 #elevator-pitch section {
   background-color: #ae0404;
@@ -82,6 +83,7 @@
   }
   /* elevator pitch */
   #elevator-pitch {
+  padding: 50px;
 }
 
 /* only small devices */
@@ -89,10 +91,28 @@
 
   /* elevator pitch */
   #elevator-pitch {
-    padding: 10px;
+    padding-left: 0;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  #elevator-pitch h1, #elevator-pitch h2 {
+    font-size: 1px;
+    background-color: blue;
   }
   #elevator-pitch span {
     border-bottom: 2px solid white;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 1px;
+  }
+  #elevator-pitch section {
+    background-color: #ae0404;
+    border: 0px solid #ae0404;
+    border-radius: 10px;
   }
 
 }
