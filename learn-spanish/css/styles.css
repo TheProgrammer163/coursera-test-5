@@ -28,6 +28,11 @@
   color: white;
   padding: 50px;
 }
+#elevator-pitch section {
+  background-color: #ae0404;
+  border: 30px solid #ae0404;
+  border-radius: 30px;
+}
 #elevator-pitch span {
   border-bottom: 4px solid white;
 }
@@ -80,18 +85,11 @@
 }
 
 /* only small devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   /* elevator pitch */
   #elevator-pitch {
-    padding: 20px;
-  }
-  #elevator-pitch h1 {
-    font-size: 22px;
-    font-weight: bold;
-  }
-  #elevator-pitch h2 {
-    font-size: 20px;
+    padding: 10px;
   }
   #elevator-pitch span {
     border-bottom: 2px solid white;
