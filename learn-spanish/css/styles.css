@@ -127,7 +127,7 @@ The first text someone sees when arriving on the page*/
   padding: 0px;
   padding-top: 10px;
 }
-#elevator-pitch section {
+#elevator-pitch section, #services section {
   background-color: #ae0404;
   background-color: #222;
   border: 30px solid #222;
