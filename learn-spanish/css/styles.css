@@ -198,6 +198,9 @@ The first text someone sees when arriving on the page*/
   text-decoration: none;
   padding-top: 14px;
   padding-bottom: 14px;
+  font-size: 17px;
+  font-weight: bold;
+
 }
 #st-backToTheTop a:hover,#st-backToTheTop a:focus {
   color: white;
