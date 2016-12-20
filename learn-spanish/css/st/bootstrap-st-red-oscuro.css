@@ -89,9 +89,10 @@
 }
 
 /* added a hover effect for the navbar*/
+/* commented out because I used box shadow for the hover effect
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #bf1200;
-}
+}/**/
 
 /* white shadow */
 .navbar-static-top {
