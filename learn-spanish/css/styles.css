@@ -275,7 +275,7 @@ The first text someone sees when arriving on the page*/
 
 /* bigger than mobile screens*/
 @media (min-width: 768px) {
-  .container {
+  .container-st-small {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -301,11 +301,11 @@ The first text someone sees when arriving on the page*/
   #elevator-pitch span {
     border-bottom: 2px solid white;
   }
-  .container {
+  .container-st-small {
     padding: 0;
     margin: 0;
     border: 0;
-    font-size: 1px;
+    font-size: 2px;
   }
   #elevator-pitch section {
     background-color: #ae0404;
