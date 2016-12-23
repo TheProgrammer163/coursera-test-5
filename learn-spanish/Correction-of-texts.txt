@@ -1,5 +1,6 @@
 Correction of texts
 
+******** TO MODIFY ********
 "I" and "me" refer to "Samuel Lapointe"
 "You" refers to the person buying the service.
 
@@ -9,9 +10,9 @@ Correction of texts
 -------------------------------------------------
 
 
-Correction of texts - Option 1:
+Correction of texts - Option 1 - Texts of 200-300 words:******** TO MODIFY ********
 
-For an automatic recurring payment of $89.97 USD, I will correct one text of 200* words, written in Spanish, written by you on each Monday, Tuesday, Wednesday, Thursday and Friday of the week (everyday of the week except Saturday and Sunday). You will receive the corrected text within 48 hours.
+For an automatic recurring payment of $119.97 USD******** TO MODIFY ********, I will correct one text of 200********* TO MODIFY ******** words, written in Spanish, written by you on each Monday, Tuesday, Wednesday, Thursday and Friday of the week (everyday of the week except Saturday and Sunday). You will receive the corrected text within 48 hours.
 
 If for any reason you are unable to to send a text you wrote on a given day, you can send it on a Saturday or Sunday. If this happens with more than 2 texts the other texts will not be corrected.
 
@@ -21,7 +22,38 @@ I will do up to 2 more corrections of the same text, for the same day if you ask
 
 Depending on the month, 20 to 23 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
 
-*The text can be up to 300 words.
+*The text can be up to 300 words.******** TO MODIFY ********
+
+---------------------
+
+
+Cancelling and Refunds
+
+You can cancel the service anytime, you will continue receiving the service for the month you already paid for.
+
+If you want a refund for a month that has not started yet, you can get a 90% refund if you ask at least 5 days in advance OR 48 hours after the payment. The 10% that will not be refunded is for administrative fees.
+
+If the month has already started, you can cancel the service and ask for a full refund, minus $4 USD per text corrected. 10% will be deduced from the refund to cover administrative fees.
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+Correction of texts - Option 2 - Texts of 500-600 words:******** TO MODIFY ********
+
+For an automatic recurring payment of $199.97 USD******** TO MODIFY ********, I will correct one text of 200********* TO MODIFY ******** words, written in Spanish, written by you on each Monday, Tuesday, Wednesday, Thursday and Friday of the week (everyday of the week except Saturday and Sunday). You will receive the corrected text within 48 hours.
+
+If for any reason you are unable to to send a text you wrote on a given day, you can send it on a Saturday or Sunday. If this happens with more than 2 texts the other texts will not be corrected.
+
+
+I will write at least 1 comment that will come with the correction.
+I will do up to 2 more corrections of the same text, for the same day if you ask me to.
+
+Depending on the month, 20 to 23 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
+
+*The text can be up to 300 words.******** TO MODIFY ********
 
 ---------------------
 
@@ -75,15 +107,15 @@ Price at $7.0 per text = $7.0 * 21.667 = [$151.67 per month]
 -------------------------------------------------
 
 
-Correction of texts - Option 2:
+Correction of texts - Option 3 - texts of 500 words:******** TO MODIFY ********
 
-For an automatic recurring payment of $39.97 USD, I will correct one text of 500* words, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
+For an automatic recurring payment of $59.97 USD******** TO MODIFY ********, I will correct one text of 500********* TO MODIFY ******** words, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
 
-If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday.
+If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday. In this case I make no guarantee as to when the text will be corrected.
 
 Depending on the month, 8 to 10 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
 
-*The text can be up to 600 words.
+*The text can be up to 600 words.******** TO MODIFY ********
 
 ------------------------------------
 
@@ -101,15 +133,17 @@ If the month has already started, you can cancel the service and ask for a full 
 -------------------------------------------------
 
 
-Correction of texts - Option 3:
+Correction of texts - Option 4 - texts of 1000 words:******** TO MODIFY ********
 
-For an automatic recurring payment of PRICE, I will correct one text, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
+For an automatic recurring payment of $119.97 USD******** TO MODIFY ********, I will correct one text of 1000********* TO MODIFY ******** words, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
 
-If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday.
+If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday. In this case I make no guarantee as to when the text will be corrected.
 
 Depending on the month, 8 to 10 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
 
----------------------------
+*The text can be up to 1200 words.******** TO MODIFY ********
+
+------------------------------------
 
 Cancelling and Refunds
 
@@ -118,3 +152,7 @@ You can cancel the service anytime, you will continue receiving the service for 
 If you want a refund for a month that has not started yet, you can get a 90% refund if you ask at least 5 days in advance OR 48 hours after the payment. The 10% that will not be refunded is for administrative fees.
 
 If the month has already started, you can cancel the service and ask for a full refund, minus $4 USD per text corrected. 10% will be deduced from the refund to cover administrative fees.
+
+
+
+Option 4 - the whole kit with Dora - to do later
