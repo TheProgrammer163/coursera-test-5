@@ -11,7 +11,7 @@ Correction of texts
 
 Correction of texts - Option 1:
 
-For an automatic recurring payment of PRICE, I will correct one text, written in Spanish, written by you on each Monday, Tuesday, Wednesday, Thursday and Friday of the week. You will receive the corrected text within 48 hours. 
+For an automatic recurring payment of $89.97 USD, I will correct one text of 200* words, written in Spanish, written by you on each Monday, Tuesday, Wednesday, Thursday and Friday of the week (everyday of the week except Saturday and Sunday). You will receive the corrected text within 48 hours.
 
 If for any reason you are unable to to send a text you wrote on a given day, you can send it on a Saturday or Sunday. If this happens with more than 2 texts the other texts will not be corrected.
 
@@ -21,6 +21,7 @@ I will do up to 2 more corrections of the same text, for the same day if you ask
 
 Depending on the month, 20 to 23 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
 
+*The text can be up to 300 words.
 
 ---------------------
 
@@ -40,7 +41,34 @@ If the month has already started, you can cancel the service and ask for a full 
 
 9 + 8 + 8 + 10 + 8 + 8 + 10 + 8 + 9 + 9 + 8 + 10 = how many week-end days in the year 2017 = 105.
 105 weekend days / 12 months = 8.75 weekend days per month.
-Price at 4$ per text = $4 * 8.75 = [$35 per month.]
+
+Monthly fee for weekends - 200-300 words:
+Price at $4.0 per text = $4.0 * 8.75 = [$35.00 per month]
+Price at $4.2 per text = $4.2 * 8.75 = [$36.75 per month]
+Price at $4.4 per text = $4.4 * 8.75 = [$38.50 per month]
+Price at $5.0 per text = $5.0 * 8.75 = [$43.75 per month]
+Price at $6.0 per text = $6.0 * 8.75 = [$52.50 per month]
+Price at $6.0 per text = $7.0 * 8.75 = [$61.25 per month]
+
+Monthly fee for weekends - 500-600 words:
+Price at $08.0 per text = $08.0 * 8.75 = [$070.00 per month]
+Price at $08.4 per text = $08.4 * 8.75 = [$073.50 per month]
+Price at $08.8 per text = $08.8 * 8.75 = [$077.00 per month]
+Price at $10.0 per text = $10.0 * 8.75 = [$087.50 per month]
+Price at $12.0 per text = $12.0 * 8.75 = [$105.00 per month]
+Price at $14.0 per text = $14.0 * 8.75 = [$122.50 per month]
+
+
+9 + 8 + 8 + 10 + 8 + 8 + 10 + 8 + 9 + 9 + 8 + 10 = how many week-end days in the year 2017 = 105.
+365 - 105 = 260 weekdays per year / 12 months = 21.667 week days per month
+
+Monthly fee for week days - 200-300 words:
+Price at $4.0 per text = $4.0 * 21.667 = [ $86.67 per month]
+Price at $4.2 per text = $4.2 * 21.667 = [ $91.00 per month]
+Price at $4.4 per text = $4.4 * 21.667 = [ $95.33 per month]
+Price at $5.0 per text = $5.0 * 21.667 = [$108.33 per month]
+Price at $6.0 per text = $6.0 * 21.667 = [$130.00 per month]
+Price at $7.0 per text = $7.0 * 21.667 = [$151.67 per month]
 
 -------------------------------------------------
 -------------------------------------------------
@@ -49,15 +77,39 @@ Price at 4$ per text = $4 * 8.75 = [$35 per month.]
 
 Correction of texts - Option 2:
 
-For an automatic recurring payment of PRICE, I will correct one text, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
+For an automatic recurring payment of $39.97 USD, I will correct one text of 500* words, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
 
-If for any reason you are unable to to send a text you wrote on a given day, you can send it on a Saturday or Sunday. If it happens with more than 2 texts the other texts will not be corrected.
-
-I will write at least 1 comment that will come with each correction.
+If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday.
 
 Depending on the month, 8 to 10 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
 
+*The text can be up to 600 words.
 
+------------------------------------
+
+Cancelling and Refunds
+
+You can cancel the service anytime, you will continue receiving the service for the month you already paid for.
+
+If you want a refund for a month that has not started yet, you can get a 90% refund if you ask at least 5 days in advance OR 48 hours after the payment. The 10% that will not be refunded is for administrative fees.
+
+If the month has already started, you can cancel the service and ask for a full refund, minus $4 USD per text corrected. 10% will be deduced from the refund to cover administrative fees.
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+Correction of texts - Option 3:
+
+For an automatic recurring payment of PRICE, I will correct one text, written in Spanish, written by you on every Saturday and Sunday. You will receive the corrected text within 48 hours.
+
+If for any reason you are unable to to send a text you wrote on a given day, you can send it before Tuesday.
+
+Depending on the month, 8 to 10 texts will be corrected (it depends on how many days there is in the current month, and how many days it has excluding weekends)
+
+---------------------------
 
 Cancelling and Refunds
 
