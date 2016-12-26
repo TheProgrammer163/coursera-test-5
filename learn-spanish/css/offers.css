@@ -50,7 +50,6 @@ even though I refer specifically to those inside the .Option class.
 	.Option {
 		/*border: 1px solid black;*/
 		padding-bottom: 20px;
-		padding-top: 20px;
 		margin-top: 20px;
 		background-color: #333;
 	}
@@ -60,11 +59,16 @@ even though I refer specifically to those inside the .Option class.
 		}
 			.Option .Option-Header {
 				padding-top: 0;
+		padding-top: 20px;
+			}
+			.Option .Option-Price, .Option .Option-Price-NoColor {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-top: 10px;
+				padding-bottom: 10px;
 			}
 			.Option .Option-Price {
 				background-color: #555;
-				padding-top: 15px;
-				padding-bottom: 15px;
 				color: white;
 			}
 			.Option .Option-ItemsIncluded {
@@ -77,9 +81,13 @@ even though I refer specifically to those inside the .Option class.
 				.Option .Option-ItemsIncluded p {
 					text-indent: -13px;
 				}
-		.Option h4 {
-			font-size: 30px;
+		.Option h5, .Option h4, .Option h3, .Option h2, .Option h1 {
 			margin: 0;
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+		.important-info {
+			font-size: 30px;
 		}
 		.Option span span {
 			font-size: 12px;
@@ -275,6 +283,8 @@ even though I refer specifically to those inside the .Option class.
 .Option-20 {
 	background-color: #d6720e;
 	background-color: #d6720e;
+	background-color: #DDD;
+	color: black;
 }
 	.Option-20 .Option-Price {
 		background-color: #a40000;
