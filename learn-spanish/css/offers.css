@@ -50,19 +50,16 @@ even though I refer specifically to those inside the .Option class.
 		padding: 30px;
 		border-radius: 25px;
 		color: #333;
-		color: white;
 	}
 	#introduction-to-pricing-options-description-bottom {
 		background-color: #DDD;
-		padding: 30px;
-		border-top: 0px;
 		border-radius: 0px 0px 25px 25px;
 		color: black;
 	}
 	#introduction-to-pricing-options-description-top {
 		background-color: #a40000;
-		padding: 30px;
 		border-radius: 25px 25px 0px 0px;
+		color: white;
 	}
 
 
@@ -178,7 +175,7 @@ even though I refer specifically to those inside the .Option class.
 	  margin-bottom: 14px;
 	}
 		.st-btn a {
-		  padding: 14px 20px;
+			padding: 14px 20px;
 			-webkit-transition: 0.1s; /* Safari */
     		transition: 0.1s;
 		}
@@ -186,6 +183,8 @@ even though I refer specifically to those inside the .Option class.
 				text-decoration: none;
 				color: #bf1200;
 				background-color: white;
+				background: #8e0000;
+				color: #EEE;
 			}
 
 /**** End of General CSS ****/
@@ -405,6 +404,14 @@ section.on-hover {
 	/*.Option*/ .Option-Price {
 		border-radius: 35px 0px 25px 0px;
 	}
+	#introduction-to-pricing-options-description-bottom, #introduction-to-pricing-options-description-top {
+		padding: 15px;
+		margin: 0 5px;
+	}
+	.Option-ItemsIncluded {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 
 }
 
@@ -418,4 +425,27 @@ section.on-hover {
 
 .GrayBackground {
 	background-color: #222;
+}
+
+
+/**** Paypal Button ***/
+.paypal_btn {
+	display: inline-block;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 10px 14px;
+	margin: 0;
+	background: #ff6600;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: 0.1s; /* Safari */
+	transition: 0.1s;
+}
+.paypal_btn:hover {
+	background: #8e0000;
+	color: #EEE;
 }
