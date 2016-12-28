@@ -23,6 +23,50 @@ even though I refer specifically to those inside the .Option class.
 
 
 /***** GENERAL CSS *****/
+.title-margin {
+	margin-top: 20px;
+}
+.paragraph-margins {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+	max-width: 50em;
+}
+
+/***** the Title/description/introduction/prologue *****/
+#introduction-to-pricing-options {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+	color: white;
+}
+	#introduction-to-pricing-options h4 {
+		line-height: 1.4;
+	}
+	#introduction-to-pricing-options-description-bottom, #introduction-to-pricing-options-description-top {
+		background-color: #DDD;
+		padding: 30px;
+		border-radius: 25px;
+		color: #333;
+		color: white;
+	}
+	#introduction-to-pricing-options-description-bottom {
+		background-color: #DDD;
+		padding: 30px;
+		border-top: 0px;
+		border-radius: 0px 0px 25px 25px;
+		color: black;
+	}
+	#introduction-to-pricing-options-description-top {
+		background-color: #a40000;
+		padding: 30px;
+		border-radius: 25px 25px 0px 0px;
+	}
+
+
+
 
 /* options/products/services listings */
 .packages {
@@ -33,12 +77,14 @@ even though I refer specifically to those inside the .Option class.
 	text-align: center;
 	color: white;
 }
-	.packages .Option-Select {
+	/*.packages*/ .Option-Select {
 		font-size: 30px;
 		text-align: left;
 		color: #333;
+		padding-top: 10px;
+		padding-bottom: 20px
 	}
-	.packages .Option-Select span {
+	/*.packages*/ .Option-Select span {
 		/*outline: 2px solid #333;*/
 		text-shadow: 	0px -1px 0px rgba(82, 82, 82, 1),
 						0px 1px 0px rgba(82, 82, 82, 1),
@@ -52,36 +98,37 @@ even though I refer specifically to those inside the .Option class.
 		padding-bottom: 20px;
 		margin-top: 20px;
 		background-color: #333;
+		margin: 0;
+
 	}
 		.Option section {
 			padding-top: 10px;
 			padding-bottom: 10px;
 		}
-			.Option .Option-Header {
-				padding-top: 0;
-		padding-top: 20px;
+			/*.Option*/  .Option-Header {
+				padding-top: 20px;
 			}
-			.Option .Option-Price, .Option .Option-Price-NoColor {
+			/*.Option*/  .Option-Price, .Option-Price-NoColor {
 				padding-top: 15px;
 				padding-bottom: 15px;
 				padding-top: 10px;
 				padding-bottom: 10px;
 			}
-			.Option .Option-Price {
+			/*.Option*/ .Option-Price {
 				background-color: #555;
 				color: white;
 			}
-			.Option .Option-ItemsIncluded {
+			/*.Option*/ .Option-ItemsIncluded {
 				font-size: 13px;
 				text-align: left;
 				margin-right: 28px;
 				margin-left: 28px;
 				line-height: 1.3;
 			}
-				.Option .Option-ItemsIncluded p {
+				/*.Option*/ .Option-ItemsIncluded p {
 					text-indent: -13px;
 				}
-		.Option h5, .Option h4, .Option h3, .Option h2, .Option h1 {
+		h6, h5, h4, h3, h2, h1 {
 			margin: 0;
 			padding-top: 3px;
 			padding-bottom: 3px;
@@ -89,7 +136,7 @@ even though I refer specifically to those inside the .Option class.
 		.important-info {
 			font-size: 30px;
 		}
-		.Option span span {
+		span span {
 			font-size: 12px;
 			font-style: italic;
 		}
@@ -303,7 +350,11 @@ even though I refer specifically to those inside the .Option class.
 		background-color: #111;
 	}
 	.Option-Price {
-		color: #CCC;/**/
+		color: white;/**/
+	}
+	.row .Option-20 .Option-Price-Gray {
+		background-color: #222;
+		color: white;
 	}
 
 
@@ -322,3 +373,50 @@ body {
 .packages .Option-Select {
 	color: white;
 }/**/
+
+
+
+
+/** Hide descri^tion until hover **/
+.show-section-on-hover:hover section.on-hover, .show-section-on-hover:focus section.on-hover {
+	display: inline;
+}
+
+section.on-hover {
+	display: none;
+}
+
+
+/*** responsiveness ***/
+
+/* Only very small devices or higher */
+@media (min-width: 768px) {
+	/*.Option*/ .Option-Price {
+		border-radius: 100px 0px 100px 0px;
+	}
+}
+
+
+/* only small devices */
+@media (max-width: 767px) {
+  
+    .important-info {
+      font-size: 17px;
+    }
+	/*.Option*/ .Option-Price {
+		border-radius: 35px 0px 25px 0px;
+	}
+
+}
+
+.USD {
+	font-size: 0.5em;
+}
+
+.under-section {
+	margin-top: 30px;
+}
+
+.GrayBackground {
+	background-color: #222;
+}
