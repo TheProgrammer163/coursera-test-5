@@ -46,6 +46,20 @@ Muy bien - Very well
 }
 /*NOTE TO SELF: Merienda is a good cursive font.*/
 
+/* basic p, li and headings */
+p, li {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.st-product-detail li {
+  margin: 8px 0;
+}
+h4.margin-newParagraph {
+  margin-top: 15px;
+}
+h3.margin-newParagraph {
+  margin-top: 30px;
+}
 
 /*** custom font for the nav bar ***/
 .navbar-nav>li>a {
@@ -160,6 +174,8 @@ The first text someone sees when arriving on the page*/
 #services {
   background-color: #DDD;
   color: #111;
+  background-color: #EEE;
+
 }
 #elevator-pitch section, #services section {
   background-color: #ae0404;
@@ -174,8 +190,8 @@ The first text someone sees when arriving on the page*/
 /* text and selling, call to action, etc */
 .st-product-detail {
   padding: 0;
-  padding-left: 8px;
-  list-style: none;
+  padding-left: 18px;
+  /*list-style: none;*/
 }
 .st-product-detail span {
   font-weight: bold;
