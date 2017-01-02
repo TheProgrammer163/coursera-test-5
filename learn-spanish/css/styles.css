@@ -47,9 +47,12 @@ Muy bien - Very well
 /*NOTE TO SELF: Merienda is a good cursive font.*/
 
 /* basic p, li and headings */
-p, li {
+p, .p li {
   font-size: 16px;
   line-height: 1.4;
+}
+.darkColor {
+  color: black;
 }
 .st-product-detail li {
   margin: 8px 0;
@@ -60,6 +63,34 @@ h4.margin-newParagraph {
 h3.margin-newParagraph {
   margin-top: 30px;
 }
+
+/* email address */
+.emailAddress::after {
+  content: "@zebrary.net";
+}
+.emailAddress::before {
+  content: "hello";
+}
+
+
+/*** Panel in 2 colors ***/
+.panel-2color-bottom, .panel-2color-top {
+  background-color: #DDD;
+  padding: 30px;
+  border-radius: 25px;
+  color: #333;
+}
+.panel-2color-bottom {
+  background-color: #DDD;
+  border-radius: 0px 0px 25px 25px;
+  color: black;
+}
+.panel-2color-top {
+  background-color: #a40000;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
+}
+
 
 /*** custom font for the nav bar ***/
 .navbar-nav>li>a {
@@ -122,6 +153,14 @@ The first text someone sees when arriving on the page*/
   color: white;
   padding: 0px;
   padding-top: 10px;
+}
+#elevator-pitch h1,
+#elevator-pitch h2,
+#elevator-pitch h3,
+#elevator-pitch h4,
+#elevator-pitch h5,
+#elevator-pitch h6 {
+  color: white;
 }
 #elevator-pitch section {
   background-color: #ae0404;
