@@ -46,6 +46,31 @@ Muy bien - Very well
 }
 /*NOTE TO SELF: Merienda is a good cursive font.*/
 
+.info-panel {
+  border: 6px solid #666;
+  background-color: white;
+  padding: 15px 15px 30px 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+/*** dibujos del personaje ***/
+.square-red, .square-red-right, .square-red-left {
+  padding: 10px;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  height: 350px;
+  width: 350px;
+}
+.square-red-right {
+  float: right;
+}
+.square-red-left {
+  float: left;
+}
+
+
 /* basic p, li and headings */
 p, .p li {
   font-size: 16px;
@@ -184,7 +209,7 @@ The first text someone sees when arriving on the page*/
 /* VERSION 2!
 the big, ig text at the top of the page.
 The first text someone sees when arriving on the page*/
-#elevator-pitch, #services/* #services is temporary*/ {
+#elevator-pitch, #services, #services-content/* #services is temporary*/ {
   background-color: #ae0404;
   color: #DDD;
   padding: 0px;
@@ -199,7 +224,7 @@ The first text someone sees when arriving on the page*/
 /* VERSION 3!
 the big, ig text at the top of the page.
 The first text someone sees when arriving on the page*/
-#elevator-pitch, #services/* #services is temporary*/ {
+#elevator-pitch, #services, #services-content/* #services is temporary*/ {
   background-color: #111;
   background-color: #300000;
   background-color: #4f0000;
@@ -210,11 +235,22 @@ The first text someone sees when arriving on the page*/
   padding-bottom: 40px;
   margin: 0;
 }
-#services {
+#services, #services-content {
   background-color: #DDD;
   color: #111;
   background-color: #EEE;
+  padding-left: 20px;
+  padding-right: 20px;
 
+}
+#services {
+  background-color: #a40000;
+  color: white;
+  border-radius: 25px 25px 0px 0px;
+}
+#services-content {
+  border-radius: 0px 0px 25px 25px;
+  margin-bottom: 50px;
 }
 #elevator-pitch section, #services section {
   background-color: #ae0404;
@@ -244,43 +280,12 @@ The first text someone sees when arriving on the page*/
 }
 
 
-/**** About Us ******/
-#about {
-  background-color: #e5e5e5;
-  display: none;
-}
-#about p, #about h4 {
-  
-}
-#about-title {
-  text-align: center;
-  
-}
 
 /*** introduction ***/
 #introduction {
   padding-bottom: 40px;
   padding-top: 20px;
 }
-
-/* Profile */
-
-.profile-card img {
-  border-radius: 50%;
-  height: 160px;
-  width: 160px;
-}
-.profile-card {
-  text-align: center;
-  padding: 30px;
-}
-
-#profiles {
-  padding: 20px;
-  border-radius: 80px;
-}
-
-/** end of about us**/
 
 /* footer */
 #st-footer {
@@ -417,6 +422,16 @@ The first text someone sees when arriving on the page*/
     background-color: #ae0404;
     border: 0px solid #ae0404;
     border-radius: 10px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*** dibujos del personaje ***/
+  .square-red, .square-red-right, .square-red-left {
+    height: 310px;
+    width: 310px;
   }
 
 }
