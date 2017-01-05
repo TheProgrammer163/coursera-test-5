@@ -90,11 +90,8 @@ h3.margin-newParagraph {
 }
 
 /* email address */
-.emailAddress::after {
-  content: "@zebrary.net";
-}
 .emailAddress::before {
-  content: "hello";
+  content: "Email: ";
 }
 
 
@@ -209,7 +206,7 @@ The first text someone sees when arriving on the page*/
 /* VERSION 2!
 the big, ig text at the top of the page.
 The first text someone sees when arriving on the page*/
-#elevator-pitch, #services, #services-content/* #services is temporary*/ {
+#elevator-pitch, #services, #services-content, .cuadro/* #services is temporary*/ {
   background-color: #ae0404;
   color: #DDD;
   padding: 0px;
@@ -224,7 +221,7 @@ The first text someone sees when arriving on the page*/
 /* VERSION 3!
 the big, ig text at the top of the page.
 The first text someone sees when arriving on the page*/
-#elevator-pitch, #services, #services-content/* #services is temporary*/ {
+#elevator-pitch, #services, #services-content, .cuadro/* #services is temporary*/ {
   background-color: #111;
   background-color: #300000;
   background-color: #4f0000;
@@ -235,7 +232,7 @@ The first text someone sees when arriving on the page*/
   padding-bottom: 40px;
   margin: 0;
 }
-#services, #services-content {
+#services, #services-content, .cuadro, .cuadro-content {
   background-color: #DDD;
   color: #111;
   background-color: #EEE;
@@ -243,16 +240,16 @@ The first text someone sees when arriving on the page*/
   padding-right: 20px;
 
 }
-#services {
+#services, .cuadro {
   background-color: #a40000;
   color: white;
   border-radius: 25px 25px 0px 0px;
 }
-#services-content {
+#services-content, .cuadro-content {
   border-radius: 0px 0px 25px 25px;
   margin-bottom: 50px;
 }
-#elevator-pitch section, #services section {
+#elevator-pitch section, #services section, .cuadro section {
   background-color: #ae0404;
   background-color: #222;
   border: 30px solid #222;
@@ -423,6 +420,9 @@ The first text someone sees when arriving on the page*/
     border: 0px solid #ae0404;
     border-radius: 10px;
   }
+  .cuadro-title {
+    margin-left: 30px;
+  }
 
 }
 
@@ -434,4 +434,31 @@ The first text someone sees when arriving on the page*/
     width: 310px;
   }
 
+}
+
+
+/** cuadro **/
+.cuadro {
+  margin-top: 50px;
+}
+.cuadro-title {
+  margin-left: 15px;
+}
+.cuadro-content {
+  border: 2px solid grey;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-top-width: 0px;
+}
+.cuadro-content .st-btn {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.cuadro h2, .cuadro-content h2,
+.cuadro h3, .cuadro-content h3,
+.cuadro h4, .cuadro-content h4 {
+  font-weight: bold;
+}
+.cuadro-notTheLast {
+  border-right: 1px solid #CCC;
 }
